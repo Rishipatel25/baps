@@ -1,0 +1,27 @@
+// Header css
+.header-height {
+  height: 80px;
+  min-height: 80px;
+  max-height: 80px;
+}
+.header {
+  padding: 19px 30px;
+  .hamburger {
+    font-size: 24px;
+  }
+  .page-heading {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+  }
+  .breadcrumb {
+    border-left: 2px solid $light;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding-left: 19px;
+    text-transform: capitalize;
+  }
+}

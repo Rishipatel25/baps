@@ -1,0 +1,23 @@
+.btn {
+    cursor: pointer;
+}
+.btn-primary {
+  background-color: $primary;
+  border-radius: $raduis-sm;
+  text-transform: uppercase;
+  font-size: $text-sm;
+  padding: 7px;
+  &:hover {
+    background-color: $primary-dark;
+  }
+}
+.btn-secondary {
+  background-color: $light-gray;                                                                    
+  border-radius: $raduis-md;
+  text-transform: uppercase;
+  font-size: $text-sm;
+  padding: 7px;
+  &:hover {
+    background-color: $secondary-dark;
+  }
+}

@@ -1,0 +1,80 @@
+.vtms-logo {
+  width: 170px;
+  height: 180px;
+  margin: 0 auto;
+}
+.login-wrapper{
+  height: 90vh !important;
+}
+.login-card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  min-width: 300px;
+  max-width: 600px;
+  width: 100%;
+  margin-inline: auto;
+  padding: 30px;
+  text-align: center;
+  .login-title-text {
+    min-width: 400px;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    .login-form {
+      width: 250px;
+      margin: 0 auto;
+    }
+  }
+  .btn-login button {
+    background-color: $primary;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+    margin-top: 12px;
+    margin-inline: auto;
+  }
+  @media only screen and (max-width: 480px) {
+    .login-wrapper {
+      font-size: 14px;
+    }
+    .login-card {
+      box-shadow: none;
+      min-width: 350px;
+      width: 100%;
+    }
+    .login-title-text {
+      min-width: 400px;
+      max-width: 500px;
+      width: 100%;
+      margin: 0 auto;
+      .login-form {
+        width: 250px;
+        margin: 0 auto;
+        .btn-login button {
+          background-color: $primary;
+          padding: 10px;
+          border-radius: 4px;
+          color: white;
+          font-weight: 600;
+          margin-top: 12px;
+          margin-inline: auto;
+        }
+      }
+    }
+    // FIXME: recheck this media query later
+    @media only screen and (max-width: 480px) {
+      .login-wrapper {
+        font-size: 14px;
+      }
+      .login-card {
+        box-shadow: none;
+        min-width: 350px;
+        width: 100%;
+      }
+      .login-title-text {
+        min-width: 100px;
+        max-width: 350px;
+      }
+    }
+  }
+}

@@ -1,0 +1,108 @@
+//size
+$h-100: 100%;
+$h-v100: 100vh;
+$h-75: 75%;
+$h-50: 50%;
+$h-30: 30%;
+
+$w-100: 100%;
+$w-75: 75%;
+$w-50: 50%;
+$w-30: 30%;
+$w-10: 10%;
+$w-5: 5%;
+
+$container-padding-xsmall: 10px 10px 10px 10px;
+$container-padding-sm: 20px 20px 20px 20px;
+$container-padding-md: 30px 30px 30px 30px;
+$container-padding-lg: 50px 50px 30px 30px;
+
+$container-margin-sm: 20px 20px 20px 20px;
+$container-margin-y-sm: 20px 0 20px 0;
+$container-margin-x-sm: 0 20px 0 20px;
+
+// Colors
+// Background color
+$primary: #7fa9ae;
+$primary-green-light: #ecf8eb;
+$primary-light: #d9e1e3;
+$primary-lighter: #e3f5ed;
+$primary-dark: #1f9061;
+$secondary: #ececf2;
+$secondary-light: #f5f8f9;
+$secondary-dark: #828b9c;
+$warning: #ff0000;
+$danger-light: #f9d7d8;
+$danger-lighter: #fee9ea;
+$info-light: #4ba0d9;
+$info-lighter: #bce4ff;
+$dark: #292d26;
+$dark-thin: #454744;
+$light: #ffffff;
+$light-gray: #e4e4e4;
+$cyan: #86c7ff;
+$cyan-dark: #3d9df1;
+$yellow: #f9e1a4;
+$light-theme-gray: #e3e3e3;
+$brown: #e5decf;
+$dark-brown: #c7a56a;
+$metallic-yellow: #f0e051;
+$light-blue: #b1b7f2;
+
+// Text color
+$text-green: $primary-dark;
+$text-red: $warning;
+$text-gray: $secondary-dark;
+$text-cyan: $cyan;
+$text-yellow: $yellow;
+$text-metallic-yellow: $metallic-yellow;
+
+//bg-color
+$bg-gray: #cacaca;
+$bg-green: #97ff94;
+$bg-red: #ffacac;
+$bg-cyan: $cyan;
+
+// font size
+$text-xsmall: 0.65rem; /* 12px */
+$text-sm: 0.875rem; /* 14px */
+$text-md: 1rem; /* 16px */
+$text-lg: 1.125rem; /* 18px */
+$text-xl: 1.25rem; /* 20px */
+$text-2xl: 1.5rem; /* 24px */
+
+//line height
+$line-height-sm: 1.25rem; /* 20px */
+$line-height-md: 1.5rem; /* 24px */
+$line-height-lg: 1.75rem; /* 28px */
+$line-height-2xl: 2rem; /* 32px */
+
+//font weight
+$font-normal: 500;
+$font-meduim: 600;
+$font-bold: 700;
+$font-dark: 800;
+
+// raduis
+$raduis-none: 0px;
+$raduis-sm: 0.256rem; /* 6px */
+$raduis-md: 0.375rem; /* 6px */
+$raduis-lg: 0.5rem; /* 8px */
+$raduis-xl: 0.75rem; /* 12px */
+$raduis-2xl: 1rem; /* 16px */
+
+// opacity
+$opacity-0: 0;
+$opacity-1: 1;
+
+//box shadows
+$box-shadow-all:
+  0px 8px 16px -6px rgba(24, 39, 75, 0.08),
+  0px 6px 8px -6px rgba(24, 39, 75, 0.12);
+
+//media queries
+$xsmall: 250px;
+$small: 640px;
+$meduim: 768px;
+$lg: 1024px;
+$xl: 1280px; 
